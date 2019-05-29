@@ -139,6 +139,8 @@ Error message and password prompt
 
 <li>$:/config/DefaultSidebarTab</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/export-page</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/fold-all</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
@@ -188,6 +190,8 @@ Error message and password prompt
 <li>$:/state/tab/sidebar--595412856</li>
 
 <li>$:/state/tabs/controlpanel/toolbars-1345989671</li>
+
+<li>$:/state/toc/Contents-Git-1637712383</li>
 
 <li>$:/state/toc/Contents-Tasks-1637712383</li>
 
@@ -387,13 +391,21 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
-<li>a</li>
-
 <li>Contents</li>
 
-<li>Contents (190523)</li>
+<li>Contents sub page (190529)</li>
+
+<li>Contents tab (190523)</li>
+
+<li>Default page (190524)</li>
+
+<li>Git</li>
+
+<li>Image add (190529)</li>
 
 <li>Journal</li>
+
+<li>SourceTree (190527)</li>
 
 <li>Tasks</li>
 
@@ -402,8 +414,6 @@ Error message and password prompt
 <li>Tiddly</li>
 
 <li>ToDo</li>
-
-<li>tray_icon.png</li>
 
 </ul>
 </p>
@@ -417,6 +427,9 @@ Error message and password prompt
 <div id="storeArea" style="display:none;">
 <div created="20190522113920371" modified="20190522113920371" title="$:/config/DefaultSidebarTab">
 <pre>Contents</pre>
+</div>
+<div created="20190529100302916" modified="20190529102353556" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/export-page">
+<pre>hide</pre>
 </div>
 <div created="20190521125723983" modified="20190523045833465" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/fold-all">
 <pre>hide</pre>
@@ -9339,8 +9352,8 @@ Error message and password prompt
 <div created="20190522111019976" modified="20190522112800386" title="$:/state/tab--1963855381">
 <pre>$:/core/ui/ControlPanel/Palette</pre>
 </div>
-<div created="20190522110933587" modified="20190522110949921" title="$:/state/tab--2112689675">
-<pre>$:/core/ui/ControlPanel/Advanced</pre>
+<div created="20190522110933587" modified="20190524111217732" title="$:/state/tab--2112689675">
+<pre>$:/core/ui/ControlPanel/Basics</pre>
 </div>
 <div created="20190522111214109" modified="20190522111216168" title="$:/state/tab--86143343">
 <pre>$:/core/ui/ControlPanel/Plugins/Installed/Plugins</pre>
@@ -9354,17 +9367,20 @@ Error message and password prompt
 <div created="20190522111221178" modified="20190522111439350" title="$:/state/tab-1342078386">
 <pre>$:/core/ui/ControlPanel/Plugins/Add/Plugins</pre>
 </div>
-<div created="20190522111013874" modified="20190522113912455" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Settings</pre>
+<div created="20190522111013874" modified="20190524111215219" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
 <div created="20190522110839977" modified="20190522113201366" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Plugins</pre>
 </div>
-<div created="20190521125046234" modified="20190523233746664" title="$:/state/tab/sidebar--595412856">
-<pre>Contents</pre>
+<div created="20190521125046234" modified="20190529095454386" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Tools</pre>
 </div>
 <div created="20190522111033743" modified="20190522111058294" title="$:/state/tabs/controlpanel/toolbars-1345989671">
 <pre>$:/core/ui/ControlPanel/Toolbars/EditToolbar</pre>
+</div>
+<div created="20190527015422211" modified="20190528231554052" title="$:/state/toc/Contents-Git-1637712383">
+<pre>close</pre>
 </div>
 <div created="20190522114522560" modified="20190522114524293" title="$:/state/toc/Contents-Tasks-1637712383">
 <pre>close</pre>
@@ -9372,13 +9388,13 @@ Error message and password prompt
 <div created="20190522114400081" modified="20190522114417313" title="$:/state/toc/Contents-Tasks-1843068618">
 <pre>open</pre>
 </div>
-<div created="20190523040143981" modified="20190523040143981" title="$:/state/toc/Contents-Tiddly-1637712383">
+<div created="20190523040143981" modified="20190528231555278" title="$:/state/toc/Contents-Tiddly-1637712383">
 <pre>open</pre>
 </div>
 <div created="20190523011217456" modified="20190523011217456" title="$:/state/toc/Contents-Tiddly-1843068618">
 <pre>open</pre>
 </div>
-<div created="20190523233749960" list="Contents [[Contents (190523)]]" modified="20190523233749960" title="$:/StoryList">
+<div created="20190529102300478" list="[[Image add (190529)]] Contents" modified="20190529102300478" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9394,7 +9410,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///C:/Users/KyoungGukKang/OneDrive%20-%20%EC%A0%9C%EB%8B%89%EC%8A%A4%20(%EC%A3%BC)/Summary/Wiki/Project.html&quot;
+            &quot;text&quot;: &quot;file:///D:/kgkang/Doc/Wiki/Project.html&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
@@ -9414,7 +9430,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/C:/Users/KyoungGukKang/OneDrive%20-%20%EC%A0%9C%EB%8B%89%EC%8A%A4%20(%EC%A3%BC)/Summary/Wiki/Project.html&quot;
+            &quot;text&quot;: &quot;/D:/kgkang/Doc/Wiki/Project.html&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -10110,7 +10126,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div author="JeremyRuston" core-version="&gt;=5.0.0" created="20190522111221719" dependents="" description="Basic theme" modified="20190522111221719" name="Vanilla" original-plugin-type="theme" original-tags="" original-title="$:/themes/tiddlywiki/vanilla" original-type="application/json" plugin-priority="0" server-url="https://tiddlywiki.com/library/v5.1.19/index.html" tags="$:/tags/RemoteAssetInfo" title="$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.19/index.html/$:/themes/tiddlywiki/vanilla" type="text/vnd.tiddlywiki" version="5.1.19">
 <pre></pre>
 </div>
-<div created="20190522100104520" modified="20190523045755701" title="$:/temp/search">
+<div created="20190522100104520" modified="20190529095556703" title="$:/temp/search">
 <pre></pre>
 </div>
 <div created="20190522111221448" modified="20190522111221448" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.19/index.html" url="https://tiddlywiki.com/library/v5.1.19/index.html">
@@ -10225,20 +10241,19 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
     }
 }</pre>
 </div>
-<div created="20190522063607038" modified="20190522105810928" tags="" title="a">
-<pre>Import Image [img[tray_icon.png]]
-
-Location Image[img[a.png]]
-
-Sub Location Image[img[Image/b.png]]
-</pre>
-</div>
 <div created="20190522113630694" list-before="$:/core/ui/SideBar/Open" modified="20190523010610910" tags="$:/tags/SideBar" title="Contents">
 <pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
 &lt;&lt;toc-selective-expandable 'Contents' sort[title]&gt;&gt;
 &lt;/div&gt;</pre>
 </div>
-<div created="20190523010858217" modified="20190523234012092" tags="Tiddly" title="Contents (190523)">
+<div created="20190528232021260" modified="20190528232352440" tags="Tiddly" title="Contents sub page (190529)">
+<pre>Contents tab의 하위에 page를 추가.
+
+&quot;tag name&quot;항목에 상위 page 이름을 입력하면 자동으로 상위 page의 하위로 page가 등록된다.
+
+[img[Image\Tiddly\04.png]]</pre>
+</div>
+<div created="20190523010858217" modified="20190528232005974" tags="Tiddly" title="Contents tab (190523)">
 <pre>''TiddlyWiki에 Contents tab 추가.''
 [img[Image\Tiddly\01.png]]
 1. Contents 제목의 page 생성.
@@ -10271,11 +10286,67 @@ Sub Location Image[img[Image/b.png]]
   &lt;/div&gt;&quot;}}}
 
 
+Reference) TiddlyWiki Tutorial 02 - Creating a Contents Tab in TiddlyWiki (15 min)
+
+https://www.youtube.com/watch?v=bu7JU4DjPrg
+
+
+
+</pre>
+</div>
+<div created="20190524111351779" modified="20190524111745153" tags="Tiddly" title="Default page (190524)">
+<pre>시작시 열리는 기본 페이지 설정.
+
+[img[Image\Tiddly\03.png]]
+
+Control panel =&gt; Info tab =&gt; Basic tab의 하위 항목 중 Default tidler에 기본으로 하려는 페이지 이름 입력.
+
+ex) Contests</pre>
+</div>
+<div created="20190527014836097" modified="20190527014900643" tags="Contents" title="Git">
+<pre></pre>
+</div>
+<div created="20190529102358124" modified="20190529103044943" tags="" title="Image add (190529)">
+<pre>이미지 추가 방법
+
+
+1. Import된 Image를 추가.
+```
+[img[tray_icon.png]]
+```
+
+2. Main html과 동일한 위치에 있는 Image를 추가.
+```
+[img[a.png]]
+```
+
+3. Main html에 대한 상대 경로를 지정하여 Image를 추가.
+
+```
+Sub Location Image[img[Image/b.png]] 
+```
 
 </pre>
 </div>
 <div created="20190522114207636" modified="20190522114228772" tags="Contents" title="Journal">
 <pre></pre>
+</div>
+<div created="20190527014927076" modified="20190527015653447" tags="Git" title="SourceTree (190527)">
+<pre>Github에 repository 연동.
+
+1. Github에 New repository로 생성.
+
+2. SourceTree에서 추가 (add)
+  Github에 추가할 local의 경로 설정.
+[img[Image\Git\01.png]]
+
+3. 추가된 SourceTree에서 github repository 주소 설정.
+[img[Image\Git\02.png]]
+[img[Image\Git\03.png]]
+
+참고) 최초로 설정시에는 github login 메시지가 표시된다.
+
+4. 커밋을 하여 github에 제대로 올라가는지 확인.</pre>
 </div>
 <div created="20190522114135349" modified="20190522114340207" tags="Contents" title="Tasks">
 <pre></pre>
@@ -10289,9 +10360,6 @@ Sub Location Image[img[Image/b.png]]
 </div>
 <div created="20190522114344480" modified="20190522114358208" tags="Tasks" title="ToDo">
 <pre></pre>
-</div>
-<div title="tray_icon.png" type="image/png">
-<pre>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAgVJREFUWAnFV7lKBEEQXS9UBEHxABUEYxXELxD8AwPFQEM/wsAvMDLyB1YUTEQ0kzUwEE3EWBCF9Y5FxeO9cappe7vc7l1nLHjb1a+r6tVMz85RKHzbEIYiUAY+MwY1qEXNxOg8AVkLu/WpmTSxkYrvCoExS6MotdgQz4Q57QOc5GSD0GED5YbUoS79PI0NFBrzVPRpxTTQgQJ7wCEw4isWwDX5YuTq9K3Z3DomEnsFv89erOJze+eAGStOapmi1lqF2wXmFZAkjvsVUX5iGvQpsOksSy1T1Fn/MZ3FTBLscQv8CrAETAByIXfDXwAoLPGj8G0T3gTYi66/CkISfhvvEXcGfDjxJ5i7ltRpdlllPqnwLt0LgnCNF67XQv8FPL312KWWHNLAMJI7tQKBPB9AXgtpYMybGUeqW20vHKDmO3ADXAPnwBEwDtRrbVoBu4EpJehN4WPoZy04ZAtatOQI/lGLDWlAy43hb7Vg3rl4Q8jSHlC8H3B1knkeZ4AXtytuDjiPBraNmuKwu6xwgdredwBLMzNxHtQioJkcdGYN7GjKKf9nDbgvKix8DPTk1QC/K+YB3rr5f18D2oFq9mdngG8+tZhpgI9KTvgQEjJ0vENOKxBr5sOE94FSms0nIJuIsWUEv8QkIJafZnzDppX48+8fp9JEEY5sR+gW1BJHDWolX8ZffB1pmHZOSRYAAAAASUVORK5CYII=</pre>
 </div>
 
 </div>
