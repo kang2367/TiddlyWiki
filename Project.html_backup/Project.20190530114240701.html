@@ -9373,7 +9373,7 @@ Error message and password prompt
 <div created="20190522110839977" modified="20190522113201366" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Plugins</pre>
 </div>
-<div created="20190521125046234" modified="20190529095454386" title="$:/state/tab/sidebar--595412856">
+<div created="20190521125046234" modified="20190530084349430" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Tools</pre>
 </div>
 <div created="20190522111033743" modified="20190522111058294" title="$:/state/tabs/controlpanel/toolbars-1345989671">
@@ -9394,7 +9394,7 @@ Error message and password prompt
 <div created="20190523011217456" modified="20190523011217456" title="$:/state/toc/Contents-Tiddly-1843068618">
 <pre>open</pre>
 </div>
-<div created="20190529102300478" list="[[Image add (190529)]] Contents" modified="20190529102300478" title="$:/StoryList">
+<div created="20190530111849913" list="Contents [[Image add (190529)]]" modified="20190530113937192" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -10126,8 +10126,8 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div author="JeremyRuston" core-version="&gt;=5.0.0" created="20190522111221719" dependents="" description="Basic theme" modified="20190522111221719" name="Vanilla" original-plugin-type="theme" original-tags="" original-title="$:/themes/tiddlywiki/vanilla" original-type="application/json" plugin-priority="0" server-url="https://tiddlywiki.com/library/v5.1.19/index.html" tags="$:/tags/RemoteAssetInfo" title="$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.19/index.html/$:/themes/tiddlywiki/vanilla" type="text/vnd.tiddlywiki" version="5.1.19">
 <pre></pre>
 </div>
-<div created="20190522100104520" modified="20190529095556703" title="$:/temp/search">
-<pre></pre>
+<div created="20190522100104520" modified="20190530111904092" title="$:/temp/search">
+<pre>test</pre>
 </div>
 <div created="20190522111221448" modified="20190522111221448" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.19/index.html" url="https://tiddlywiki.com/library/v5.1.19/index.html">
 <pre>loaded</pre>
@@ -10253,9 +10253,14 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 
 [img[Image\Tiddly\04.png]]</pre>
 </div>
-<div created="20190523010858217" modified="20190528232005974" tags="Tiddly" title="Contents tab (190523)">
+<div created="20190523010858217" modified="20190530113931345" tags="Tiddly" title="Contents tab (190523)">
 <pre>''TiddlyWiki에 Contents tab 추가.''
-[img[Image\Tiddly\01.png]]
+
+
+&lt;!-- [img[Image\Tiddly\01.png]] --&gt;
+&lt;img src=&quot;https://kang2367.github.io/TiddlyWiki/Image/Tiddly/01.PNG&quot; /&gt;
+
+
 1. Contents 제목의 page 생성.
 
 2. Tag에 &quot;$:/tags/SideBar&quot; 추가 후 저장.
@@ -10306,24 +10311,44 @@ ex) Contests</pre>
 <div created="20190527014836097" modified="20190527014900643" tags="Contents" title="Git">
 <pre></pre>
 </div>
-<div created="20190529102358124" modified="20190529103044943" tags="" title="Image add (190529)">
+<div created="20190529102358124" modified="20190530114240547" tags="Tiddly" title="Image add (190529)">
 <pre>이미지 추가 방법
 
 
 1. Import된 Image를 추가.
+
 ```
 [img[tray_icon.png]]
 ```
 
 2. Main html과 동일한 위치에 있는 Image를 추가.
+
 ```
 [img[a.png]]
 ```
 
 3. Main html에 대한 상대 경로를 지정하여 Image를 추가.
 
+
 ```
-Sub Location Image[img[Image/b.png]] 
+[img[Image/b.png]] 
+```
+
+
+4. github의 이미지를 추가.
+
+
+```
+&lt;img src=&quot;https://kang2367.github.io/TiddlyWiki/Image/Tiddly/01.PNG&quot; /&gt;
+```
+
+5. Google drive의 이미지를 추가.
+
+
+기존에 &quot;open?&quot; 으로 생성된 공유링크를 &quot;uc?&quot;로 수정해야 한다.
+
+```
+&lt;img src=&quot;https://drive.google.com/uc?id=xxxxxx&quot; /&gt;
 ```
 
 </pre>
@@ -10351,9 +10376,36 @@ Sub Location Image[img[Image/b.png]]
 <div created="20190522114135349" modified="20190522114340207" tags="Contents" title="Tasks">
 <pre></pre>
 </div>
-<div created="20190521124904486" modified="20190521125101611" tags="" title="Test">
+<div created="20190521124904486" modified="20190530113826411" tags="" title="Test">
 <pre>kgkang
-강경국</pre>
+강경국
+
+
+```
+[img[Image\Tiddly\01.png]]
+```
+
+
+&lt;!-- [img[https://github.com/kang2367/TiddlyWiki/blob/master/Image/Tiddly/01.PNG]] --&gt;
+
+
+''github Image location''
+
+
+&lt;img src=&quot;https://kang2367.github.io/TiddlyWiki/Image/Tiddly/01.PNG&quot; /&gt;
+
+
+''Google Drive Image location''
+
+
+&lt;img src=&quot;https://drive.google.com/uc?id=11Nu3FH33VEuI75OEOeTiuDFOZNOK30Xi&quot; /&gt;
+
+
+Test
+
+
+
+</pre>
 </div>
 <div created="20190523010655448" modified="20190523010729223" tags="Contents" title="Tiddly">
 <pre></pre>
