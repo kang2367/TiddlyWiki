@@ -211,6 +211,8 @@ Error message and password prompt
 
 <li>$:/state/toc/Contents-Tiddly-1843068618</li>
 
+<li>$:/state/toc/Contents/Git-SourceTree-1637712383</li>
+
 <li>$:/StoryList</li>
 
 <li>$:/temp/info-plugin</li>
@@ -425,7 +427,11 @@ Error message and password prompt
 
 <li>Journal</li>
 
-<li>SourceTree (190527)</li>
+<li>Repository 연동 (190527)</li>
+
+<li>Reset (190605)</li>
+
+<li>SourceTree</li>
 
 <li>Tasks</li>
 
@@ -9417,8 +9423,8 @@ Error message and password prompt
 <div created="20190604100657332" modified="20190604102029639" title="$:/state/toc/Contents-Excel-1637712383">
 <pre>open</pre>
 </div>
-<div created="20190527015422211" modified="20190604100229280" title="$:/state/toc/Contents-Git-1637712383">
-<pre>close</pre>
+<div created="20190527015422211" modified="20190605104736869" title="$:/state/toc/Contents-Git-1637712383">
+<pre>open</pre>
 </div>
 <div created="20190522114522560" modified="20190530114656523" title="$:/state/toc/Contents-Tasks-1637712383">
 <pre>close</pre>
@@ -9432,7 +9438,10 @@ Error message and password prompt
 <div created="20190523011217456" modified="20190523011217456" title="$:/state/toc/Contents-Tiddly-1843068618">
 <pre>open</pre>
 </div>
-<div created="20190604100201198" list="Contents [[Chart (190604)]] [[Image add (190529)]]" modified="20190604102030331" title="$:/StoryList">
+<div created="20190605104858517" modified="20190605104858517" title="$:/state/toc/Contents/Git-SourceTree-1637712383">
+<pre>open</pre>
+</div>
+<div created="20190605104553328" list="[[Reset (190605)]] Contents" modified="20190605104813577" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9480,11 +9489,11 @@ Error message and password prompt
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;1536&quot;
+            &quot;text&quot;: &quot;1920&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;864&quot;
+            &quot;text&quot;: &quot;1080&quot;
         }
     }
 }</pre>
@@ -10503,7 +10512,7 @@ Note) 동일한 기능을 사용자 정의 필터 사용 가능.
 <div created="20190522114207636" modified="20190522114228772" tags="Contents" title="Journal">
 <pre></pre>
 </div>
-<div created="20190527014927076" modified="20190527015653447" tags="Git" title="SourceTree (190527)">
+<div created="20190527014927076" modified="20190605104850962" tags="SourceTree" title="Repository 연동 (190527)">
 <pre>Github에 repository 연동.
 
 1. Github에 New repository로 생성.
@@ -10519,6 +10528,26 @@ Note) 동일한 기능을 사용자 정의 필터 사용 가능.
 참고) 최초로 설정시에는 github login 메시지가 표시된다.
 
 4. 커밋을 하여 github에 제대로 올라가는지 확인.</pre>
+</div>
+<div created="20190605104922306" modified="20190605105124321" tags="SourceTree" title="Reset (190605)">
+<pre>''Git reset 방법 (원격에 있는 이전의 리스트를 제거하는 방법)''
+
+1. 로컬에서 reset (Hard)
+
+
+&lt;&lt;&lt;
+이 커밋까지 현재 브랜치를 초기화 
+&lt;&lt;&lt;
+
+
+(반드시 master가 이동해야 한다. Head만 변경되면 안 된다.)
+
+
+2. 나타나는 pull 항목에서 pull을 선택. (원격의 내용은 다 사라진다. )
+</pre>
+</div>
+<div created="20190605104756500" modified="20190605104805920" tags="Git" title="SourceTree">
+<pre></pre>
 </div>
 <div created="20190522114135349" modified="20190522114340207" tags="Contents" title="Tasks">
 <pre></pre>

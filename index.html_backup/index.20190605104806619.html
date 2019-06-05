@@ -199,6 +199,8 @@ Error message and password prompt
 
 <li>$:/state/tabs/controlpanel/toolbars-1345989671</li>
 
+<li>$:/state/toc/Contents-Excel-1637712383</li>
+
 <li>$:/state/toc/Contents-Git-1637712383</li>
 
 <li>$:/state/toc/Contents-Tasks-1637712383</li>
@@ -399,6 +401,8 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
+<li>Chart (190604)</li>
+
 <li>Comments (190530)</li>
 
 <li>Contents</li>
@@ -409,11 +413,19 @@ Error message and password prompt
 
 <li>Default page (190524)</li>
 
+<li>Excel</li>
+
+<li>Function (190604)</li>
+
 <li>Git</li>
+
+<li>GitHub Pages (190531)</li>
 
 <li>Image add (190529)</li>
 
 <li>Journal</li>
+
+<li>SourceTree</li>
 
 <li>SourceTree (190527)</li>
 
@@ -9398,13 +9410,16 @@ Error message and password prompt
 <div created="20190522110839977" modified="20190522113201366" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Plugins</pre>
 </div>
-<div created="20190521125046234" modified="20190530084349430" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Tools</pre>
+<div created="20190521125046234" modified="20190531094427371" title="$:/state/tab/sidebar--595412856">
+<pre>Contents</pre>
 </div>
 <div created="20190522111033743" modified="20190522111058294" title="$:/state/tabs/controlpanel/toolbars-1345989671">
 <pre>$:/core/ui/ControlPanel/Toolbars/EditToolbar</pre>
 </div>
-<div created="20190527015422211" modified="20190530114745037" title="$:/state/toc/Contents-Git-1637712383">
+<div created="20190604100657332" modified="20190604102029639" title="$:/state/toc/Contents-Excel-1637712383">
+<pre>open</pre>
+</div>
+<div created="20190527015422211" modified="20190605104736869" title="$:/state/toc/Contents-Git-1637712383">
 <pre>open</pre>
 </div>
 <div created="20190522114522560" modified="20190530114656523" title="$:/state/toc/Contents-Tasks-1637712383">
@@ -9413,13 +9428,13 @@ Error message and password prompt
 <div created="20190522114400081" modified="20190522114417313" title="$:/state/toc/Contents-Tasks-1843068618">
 <pre>open</pre>
 </div>
-<div created="20190523040143981" modified="20190528231555278" title="$:/state/toc/Contents-Tiddly-1637712383">
+<div created="20190523040143981" modified="20190604101954798" title="$:/state/toc/Contents-Tiddly-1637712383">
 <pre>open</pre>
 </div>
 <div created="20190523011217456" modified="20190523011217456" title="$:/state/toc/Contents-Tiddly-1843068618">
 <pre>open</pre>
 </div>
-<div created="20190530120010885" list="$:/ControlPanel Contents" modified="20190530120010885" title="$:/StoryList">
+<div created="20190605104553328" list="SourceTree Contents" modified="20190605104553328" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9435,7 +9450,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///D:/kgkang/Doc/Wiki/Project.html&quot;
+            &quot;text&quot;: &quot;file:///D:/kgkang/Doc/Wiki/index.html&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
@@ -9455,7 +9470,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/D:/kgkang/Doc/Wiki/Project.html&quot;
+            &quot;text&quot;: &quot;/D:/kgkang/Doc/Wiki/index.html&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -9467,11 +9482,11 @@ Error message and password prompt
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;1536&quot;
+            &quot;text&quot;: &quot;1920&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;864&quot;
+            &quot;text&quot;: &quot;1080&quot;
         }
     }
 }</pre>
@@ -10266,6 +10281,33 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
     }
 }</pre>
 </div>
+<div created="20190604100922090" modified="20190604102106577" tags="Excel" title="Chart (190604)">
+<pre>''엑셀 차트 만들기''
+
+''1. 꺾은선형''
+
+Oscilloscope 파형의 데이터를 CSV로 저장한 후 차트로 그릴 때 사용.
+
+여러개의 데이터를 그리는 방법.
+
+1) 시간, CH1개를 선택하여 꺾은 선형으로 그린다. 
+
+2) 그려진 차트에 다음 채널 데이터를 추가한다. (차트 오른쪽 클릭 =&gt; 데이터 선택)
+
+&lt;img src=&quot;https://kang2367.github.io/TiddlyWiki/Image/Excel/01.PNG&quot; /&gt;
+
+왼쪽 리스트 : 추가 =&gt; 계열 이름 선택 (CH2 레이블) =&gt; 계열값 (범위 선택)
+
+&lt;img src=&quot;https://kang2367.github.io/TiddlyWiki/Image/Excel/02.PNG&quot; /&gt;
+
+오른쪽 리스트 : 축 레이블 범위 수정 &quot;시간&quot; 축 데이터 선택. (1항에서 선택된 항목과 동일하게 설정)
+
+&lt;img src=&quot;https://kang2367.github.io/TiddlyWiki/Image/Excel/03.PNG&quot; /&gt;
+
+&lt;img src=&quot;https://kang2367.github.io/TiddlyWiki/Image/Excel/04.PNG&quot; /&gt;
+
+</pre>
+</div>
 <div created="20190530115106156" modified="20190530115302583" tags="Tiddly" title="Comments (190530)">
 <pre>''TiddlyWiki 주석 방법''
 
@@ -10297,7 +10339,7 @@ https://tiddlywiki.com/static/HTML%2520in%2520WikiText.html
 
 [img[Image\Tiddly\04.png]]</pre>
 </div>
-<div created="20190523010858217" modified="20190530113931345" tags="Tiddly" title="Contents tab (190523)">
+<div created="20190523010858217" modified="20190531095727629" tags="Tiddly" title="Contents tab (190523)">
 <pre>''TiddlyWiki에 Contents tab 추가.''
 
 
@@ -10352,8 +10394,70 @@ Control panel =&gt; Info tab =&gt; Basic tab의 하위 항목 중 Default tidler
 
 ex) Contests</pre>
 </div>
+<div created="20190604100231336" modified="20190604100241767" tags="Contents" title="Excel">
+<pre></pre>
+</div>
+<div created="20190604100324959" modified="20190604101001365" tags="Excel" title="Function (190604)">
+<pre>''자주사용하는 엑셀 함수 정리''
+
+1. 데이터가 있는 셀의 수량 확인.
+
+```
+=COUNT(W11:W233)
+```
+
+2. 데이터가 10인 셀의 수량 확인.
+
+```
+=COUNTIF(W11:W233,10)
+```
+
+3. 데이터가 5보다 큰 셀의 수량 확인.
+
+```
+=COUNTIF(W11:W233,&quot;&gt;&quot;&amp;5)
+```
+
+4. 0.3보다 크고 0.5보다 작은 데이터의 수량
+
+```
+=COUNTIFS(I22:I10021,&quot;&gt;0.3&quot;, I22:I10021,&quot;&lt;0.5&quot;)
+```
+
+Note) 동일한 기능을 사용자 정의 필터 사용 가능. 
+
+  사용자 정의 필터된 데이터만 수량 count 
+
+```
+=SUBTOTAL(2,I4619:I9329) 
+```
+
+  Parameter 2의 의미가 COUNT 이다.
+</pre>
+</div>
 <div created="20190527014836097" modified="20190527014900643" tags="Contents" title="Git">
 <pre></pre>
+</div>
+<div created="20190531094911688" modified="20190531111542434" tags="Tiddly" title="GitHub Pages (190531)">
+<pre>''TiddlyWiki를 GitHub Pages를 통해 사용할 수 있도록 설정.''
+
+
+1. TiddlyWiki를 사용할 Repository 생성.
+
+
+2. 생성된 Repository의 Settings 항목 중 GitHub Pages 내용에서 source 항목을 master branch로 설정하면 생성된 사이트의 주소를 확인할 수 있다. 
+
+
+[img[Image\Tiddly\05_GitHubPages.png]]
+
+
+&lt;img src=&quot;https://kang2367.github.io/TiddlyWiki/Image/Tiddly/05_GithubPages.PNG&quot; /&gt;
+
+
+참고) TiddlyWiki의 html 파일명을 index.html로 하면 주소 입력만으로 사이트에 접근 가능하다. index.html이 아닐 경우 주소에 파일명까지 지정해 주어야 한다.
+
+주의) 주소와 파일명의 대소문자를 구별하므로 반드시 동일하게 입력해야 한다.
+</pre>
 </div>
 <div created="20190529102358124" modified="20190530114914916" tags="Tiddly" title="Image add (190529)">
 <pre>이미지 추가 방법
@@ -10399,6 +10503,9 @@ ex) Contests</pre>
 </pre>
 </div>
 <div created="20190522114207636" modified="20190522114228772" tags="Contents" title="Journal">
+<pre></pre>
+</div>
+<div created="20190605104756500" modified="20190605104805920" tags="Git" title="SourceTree">
 <pre></pre>
 </div>
 <div created="20190527014927076" modified="20190527015653447" tags="Git" title="SourceTree (190527)">
